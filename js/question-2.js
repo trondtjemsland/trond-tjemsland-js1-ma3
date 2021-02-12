@@ -16,6 +16,7 @@ async function getArray() {
             <h2>Name: ${jsonResult.results[i].name}</h2>
             <p>Rating: ${jsonResult.results[i].rating}</p>
             <p>Number of Tags: ${jsonResult.results[i].tags.length}</p>
+            <img class="cardimg"cardimg src="${jsonResult.results[i].background_image}"/>
         </div>
       `;
       if (i === 7) {
