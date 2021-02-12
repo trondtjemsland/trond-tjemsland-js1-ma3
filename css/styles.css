@@ -2,6 +2,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width: 70%;
   margin: auto;
+  background-color: rgb(156, 180, 172);
 }
 
 .hide {
@@ -15,7 +16,7 @@ body {
 }
 
 .cards {
-  border: solid 4px rgb(47, 58, 207);
+  border: solid 4px rgb(68, 73, 141);
   background-color: rgb(181, 192, 183);
   margin: 20px;
   width: 280px;
